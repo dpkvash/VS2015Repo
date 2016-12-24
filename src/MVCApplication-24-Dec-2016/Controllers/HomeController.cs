@@ -8,6 +8,10 @@ namespace MVCApplication_24_Dec_2016.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// Index action
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Index()
         {
             return View();
